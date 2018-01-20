@@ -14,10 +14,74 @@
 </head>
 
 <body>
-  <h1 class="text-center">Team Froyo</h1>
-		
-		
-		
+<!--  bootstrap navbar-->
+  <nav id="header" class="navbar">
+    <div id="header-container" class="container navbar-container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a id="brand" class="navbar-brand" href="#">Project name</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Login</a></li>
+              <li><a href="#help">Help</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+<!--end navbar-->
+  
+<!--content begins-->
+  <div>
+    <div class="row content container">
+      <div class="text col-md-6 col-sm-12">
+        <h2>Sample text</h2>
+        <p>Mumbo Jumbo</p>
+      </div>
+      <div class="card col-md-6 col-sm-12">
+        <form>
+          
+          <div class="form-group">
+            <p>I am </p>
+            <label>
+              <select>
+                <option value="Male" selected="selected">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+              </select>
+              aged&nbsp;
+              <input type="number"/>
+            </label>
+          </div>
+          
+          <div class="form-group">
+            <p>looking for a </p>
+            <label>
+              <select>
+                <option value="Male" >Male</option>
+                <option value="Female" selected="selected">Female</option>
+                <option value="Other">Other</option>
+              </select>
+              aged&nbsp;
+              <input type="number"/> to <input type="number"/>
+            </label>
+          </div>
+          <div class="form-group">
+            <p>from</p>
+            <input type="text" placeholder="city"/>
+          </div>
+            <a class="btn btn-red" href="profile.html">Search</a>
+        </form>
+      </div>
+    </div>
+  </div>
+  
 		
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>

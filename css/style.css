@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  background: #FF4F59;  /* fallback for old browsers */
+}
+
+h2{
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+}
+p{
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+a{
+  color: white;
+}
+input{
+  width: 100px;
+}
+
+.row{
+  margin: 0;
+}
+.btn-red{
+  background: #d6225a;
+  background: linear-gradient(225deg, #ca2c66 0%, #e22f2f 100%);
+  transition: all .4s ease;
+  border: none;
+  border-radius: 50px;
+  width: 200px;
+  border-radius: 34px;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  font: serif;
+}
+.btn-red:hover{
+  background: linear-gradient(225deg, #e22f2f 0%, #ca2c66 100%);
+  color: white;
+  transform: translateY(-2px); 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+
+}
+.content{
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text{
+  padding: 0;
+  width: 50%;
+}
+.card{
+  color: black !important;
+  min-width: 35vw;
+  width: auto;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  height: 60vh;
+  border-radius: 10px;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card p{
+    color: black;
+
+}
