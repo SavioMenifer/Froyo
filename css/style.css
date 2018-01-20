@@ -9,18 +9,34 @@ h2{
   font-family: 'Abril Fatface', cursive;
   color: white;
 }
-p{
+p, h1, .btn, input, select, span{
   font-family: 'Lato', sans-serif;
-  color: white;
 }
-
+p{
+  color: white;
+  font-size: 18px;
+}
+span{
+  font-size: 18px;
+  font-weight: normal;
+}
 a{
   color: white;
 }
 input{
   width: 100px;
+  border-radius: 3px;
 }
+select{
+  border: none;
+  width: 100px;
+  border-bottom: 2px solid #bdbdbd;
 
+}
+form{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .row{
   margin: 0;
 }
@@ -35,6 +51,8 @@ input{
   border: 1px solid transparent;
   text-transform: uppercase;
   font: serif;
+  font-family: 'Lato', sans-serif;
+
 }
 .btn-red:hover{
   background: linear-gradient(225deg, #e22f2f 0%, #ca2c66 100%);
@@ -43,28 +61,33 @@ input{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
 
 }
+.age-group{
+  width: 50px;  
+}
 .content{
   margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
 }
+.content h2{
+  font-size: 50px;
+}
 .text{
   padding: 0;
-  width: 50%;
 }
 .card{
-  color: black !important;
   min-width: 35vw;
   width: auto;
   background: white;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
   transition: 0.3s;
-  height: 60vh;
+  min-height: 20vh;
   border-radius: 10px;
   padding: 15px;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -72,4 +95,65 @@ input{
 .card p{
     color: black;
 
+}
+.location{
+  border: none;
+  border-bottom: 2px solid #bdbdbd;
+}
+.profile{
+  margin: 0 auto;
+}
+.profile-card{
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  min-height: 40vh;
+  border-radius: 10px;
+  padding: 15px;
+}
+.profile-card p, .profile-card h2{
+  color: black;
+  font-family: 'Lato', sans-serif;
+
+}
+.profile-card span{
+  margin-right: 15px;
+}
+.profile-card img{
+  height: 200px;
+}
+.profile-card .btn{
+  border-radius: 34px;
+}
+.profile-card .col-md-4{
+  text-align: center;
+  
+}
+.profile-content li{
+  font-size: 18px;
+}
+@media only screen and (min-width: 768px) {
+  .profile-content{
+    margin-left: 8%;   
+  }
+  .card{
+    float: right;
+  }
+  .text{
+    width: 50%;
+  }
+  .text p{
+    text-align: justify;
+  }
+}
+#home{
+  width: 90%;
+}
+#profile{
+  width: 80%;
+}
+.icon-bar{
+  color: black;
 }
